@@ -1,15 +1,21 @@
 :root {
-  --mainBlue: #2a2a72;
-  --lightBlue: #009ffd;
+  --mainBlue: white;
+  --lightBlue: #560F81;
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
   --mainYellow: #ffa400;
+
+  --mainViolet: #560F81;
 }
 
 body {
   font-family: 'Oswald', sans-serif !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
+}
+
+.navbar-brand {
+  max-height: 64px;
 }
 
 .text-title {
@@ -19,13 +25,13 @@ body {
   text-transform: uppercase;
 }
 
-.text-blue {
-  color: var(--mainBlue);
+.text-violet {
+  color: var(--mainViolet);
 }
 
-.text-bright {
+/* .text-bright {
   color: var(--lightBlue);
-}
+} */
 
 .btn-black {
   background: transparent;

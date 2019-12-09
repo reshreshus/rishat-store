@@ -38,7 +38,7 @@ export default class Product extends Component {
                             <p className="align-self-center mb-0">
                                 {title}
                             </p>
-                            <h5 className="text-blue font-italic mb-0">
+                            <h5 className="text-violet font-italic mb-0">
                                 <span>
                                     ${price}            
                                 </span>

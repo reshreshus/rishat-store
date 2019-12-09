@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../logo.svg';
 import styled from 'styled-components';
 
 import {ButtonContainer} from './Button';
@@ -14,21 +13,21 @@ export default class Navbar extends Component {
                     Creative Commons (Attribution 3.0 Unported);
                     https://www.iconfinder.com/Makoto_msk */}
                     <Link to='/'>
-                        <img src={logo} alt='store' className='navbar-brand'/>
+                        <img src="/android-chrome-512x512.png" alt='store' className='navbar-brand'/>
                     </Link>
                     <ul className="navbar-nav align-items-center">
                         <li className="nav-item ml-5">
                             <Link to='/' className="nav-link">
-                                products
+                                rishat store
                             </Link>
                         </li>
                     </ul>
                     <Link to='/cart' className='ml-auto'>
                         <ButtonContainer>
                             <span className='mr-2'>
-                                <i className="fas fa-cart-plus"/>
+                                <i className="fas fa-bus"/>
                             </span>
-                            my cart
+                            my bus
                         </ButtonContainer>
                     </Link>
                 </NavWrapper>
@@ -40,7 +39,7 @@ export default class Navbar extends Component {
 const NavWrapper = styled.nav`
     background: var(--mainBlue);
     .nav-link{
-        color: var(--mainWhite) !important;
+        color: var(--mainDark) !important;
         font-size: 1.3rem;
         text-transform: capitalize;
     }

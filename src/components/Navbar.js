@@ -21,7 +21,16 @@ export default class Navbar extends Component {
                                 rishat store
                             </Link>
                         </li>
+                        <li className="nav-item ml-5">
+                            
+                            <a href='https://t.me/reshreshus' className="nav-link">
+                                <i class="fab fa-telegram fa-2x" />
+                            </a>
+                            Telegram me
+                        </li>
                     </ul>
+
+
                     <Link to='/cart' className='ml-auto'>
                         <ButtonContainer>
                             <span className='mr-2'>

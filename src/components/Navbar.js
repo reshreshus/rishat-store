@@ -20,10 +20,13 @@ export default class Navbar extends Component {
                         </li>
                         <li className="nav-item ml-5">
                             
-                            <a href='https://t.me/reshreshus' className="nav-link">
+                            {/* <a href='https://t.me/reshreshus' className="nav-link">
                                 <i class="fab fa-telegram fa-2x" />
                             </a>
-                            Telegram me
+                            Telegram me */}
+                            <a href="https://rishatrizvanov.com" className="nav-link">
+                                <img className="nav-image" src="horus_sign.png" alt="horus sign"/>
+                            </a>
                         </li>
                     </ul>
 
